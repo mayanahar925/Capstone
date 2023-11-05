@@ -11,3 +11,5 @@
 **October 31:** Planned to use metadata for analysis. Discussed selecting variables of interest based on available data and assessing missing data. Considered which statistical tests to use for variables like gender and race. Discussed matching gene names and TPM values for 133 cases. Emphasized that TPM values should be stored in a dataframe with transcript IDs as rows and read group IDs as columns.
 
 **November 2:** Separated the code into a table generator and a metadata analysis file. Cleaned the code, introduced 'already-executed' contingencies, and standardized variable names. Successfully compiled the TPM dataframe.
+
+**November 4:** Managed to perform a PCA and visualize the samples using 2d and 3d scatterplots. Also processed the dataframes for further clustering analysis.
