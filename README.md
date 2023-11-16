@@ -13,3 +13,5 @@
 **November 2:** Separated the code into a table generator and a metadata analysis file. Cleaned the code, introduced 'already-executed' contingencies, and standardized variable names. Successfully compiled the TPM dataframe.
 
 **November 4:** Managed to perform a PCA and visualize the samples using 2d and 3d scatterplots. Also processed the dataframes for further clustering analysis.
+
+**November 11:** Imported pyensembl to map transcript IDs to gene IDs. Defined a query maker function, which outputs two dataframes that captures the cases as rows along with the transcripts as columns with the TPM as the value. Used T test to compare group A and group B to identify significant and nonsignificant transcript IDs based on the given query. Defined a second function that interprets the variance at the gene level between group A and group B.
