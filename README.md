@@ -16,4 +16,10 @@
 
 **November 11:** Imported pyensembl to map transcript IDs to gene IDs. Defined a query maker function, which outputs two dataframes that captures the cases as rows along with the transcripts as columns with the TPM as the value. Used T test to compare group A and group B to identify significant and nonsignificant transcript IDs based on the given query. Defined a second function that interprets the variance at the gene level between group A and group B.
 
-**November 11** Imported pyensembl to map transcript IDs to gene IDs. Defined a query maker function, which outputs two dataframes that captures the cases as rows along with the transcripts as columns with the TPM as the value. Used T test to compare group A and group B to identify significant and nonsignificant transcript IDs based on the given query. Defined a second function that interprets the variance at the gene level between group A and group B. 
+**November 19:** Rewrote most of the dataframe forming code to enable final visualization tool to work.
+
+**November 26:** Developed euclidean distance x log fold change visualization tool and incorporated it into the pipeline.
+
+**November 26 - December 2:** Working out bugs and optimizing code runtime. Trying to incorporate significance coloring into otherwise functional euclidean distance x log fold change scatterplot code.
+
+**December 5:** Finalized 4 notebooks in total. The PCA, transcript, and gene analysis notebooks have been combined into a single notebook called pipeline. The dataframe_generator takes the given datafiles and processes them into relevant dataframes. The pyensembl notebook creates gene_name dictionaries from the transcripts in our TPM dataframe. The metadata analysis is a useful summary of variable spreads, counts, and biases, and takes into account the incompleteness of our available dataset. Its functionality will be moved into the pipeline at a later date. The pipeline notebook has been run on an example query of disease_type: Adenomas and Adenocarcinomas. All notebooks have been annotated and the codebase has been reasonably finalized. 
